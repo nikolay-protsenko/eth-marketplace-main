@@ -5,7 +5,8 @@ import useSWR from "swr"
 
 const adminAddresses = {
   "0xc32847ddca5e1db93bf434c2d41580f4da57f1e560f1bc77e8289481e3f9ba57": true,
-  "0xfd36511c8035a501abab2a9414fc41361ac1e1212193c930db48a118289a2b2f": true
+  "0xfd36511c8035a501abab2a9414fc41361ac1e1212193c930db48a118289a2b2f": true,
+  "0x408ffe98c9a5de0f1d10567eb024e0dba2fa39bf5f8445cbf4a683072309261f": true
 }
 
 export const handler = (web3, provider) => () => {
